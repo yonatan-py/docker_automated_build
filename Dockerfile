@@ -1,2 +1,2 @@
 FROM	ubuntu:utopic
-RUN		uname -l > bigbaa.com
+RUN		lsb_release -a > bigbaa.com
