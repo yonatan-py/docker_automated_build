@@ -1,2 +1,2 @@
 FROM	centos:centos6
-RUN		touch vatisthefuck
+RUN		touch this
