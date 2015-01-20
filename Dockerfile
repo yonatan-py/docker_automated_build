@@ -1,2 +1,4 @@
 FROM	centos:centos6
-RUN		touch this
+RUN		apt-get install python-pip
+RUN 	pip install flask
+COPY . /code.py
