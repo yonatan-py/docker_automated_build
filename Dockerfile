@@ -1,5 +1,5 @@
 FROM	ubuntu:utopic
 RUN		sudo apt-get update
-RUN		apt-get install python-pip
-RUN 	pip install flask
+RUN		sudo apt-get install python-pip
+RUN 	sudo pip install flask
 COPY	. /code.py
